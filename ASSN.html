@@ -1,0 +1,468 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf8">
+  <link rel="stylesheet" href="esas_styles.css">
+  <title>ESAS-r</title>
+</head>
+<body>
+  <header>
+    <h1>The Edmonton Symptom Assessment System (ESAS-r) Form</h1>
+  </header>
+  <div class="search"> 
+    <input id="Search this site" type="text" placeholder="Search this site" value="">
+    <button id="searchButton" type="button">search</button> 
+  </div>
+  <form>
+    <span>
+    User name:
+    <input id="text" type="text" name="username" required>
+    </span>
+    <span>
+    Password:
+    <input id="password" type="password" name="psw" required>
+    </span>
+    
+  </form>
+  <form action="mailto:mignontsai@gmail.com" method="post" enctype="text/plain">
+  <main>
+    <fieldset>
+      <legend>Please choose the number that best describes how you feel NOW:</legend>
+        <div>
+          <label class="question" for="pain-0">No Pain</label>
+          <input id="pain-0" type="radio" name="pain" value="0" required>
+          <label for="pain-0">0</label>
+
+          <input id="pain-1" type="radio" name="pain" value="1">
+          <label for="pain-1">1</label>
+
+          <input id="pain-2" type="radio" name="pain" value="2">
+          <label for="pain-2">2</label>
+
+          <input id="pain-3" type="radio" name="pain" value="3">
+          <label for="pain-3">3</label>
+
+          <input id="pain-4" type="radio" name="pain" value="4">
+          <label for="pain-4">4</label>
+
+          <input id="pain-5" type="radio" name="pain" value="5">
+          <label for="pain-5">5</label>
+
+          <input id="pain-6" type="radio" name="pain" value="6">
+          <label for="pain-6">6</label>
+
+          <input id="pain-7" type="radio" name="pain" value="7">
+          <label for="pain-7">7</label>
+
+          <input id="pain-8" type="radio" name="pain" value="8">
+          <label for="pain-8">8</label>
+
+          <input id="pain-9" type="radio" name="pain" value="9">
+          <label for="pain-9">9</label>
+
+          <input id="pain-10" type="radio" name="pain" value="10">
+          <label for="pain-10">10</label>
+          <label for="pain-10">Worst Possible Pain</label>
+        </div>
+
+        <div>
+          <label class="question" for="tiredness-0">No Tiredness
+            <span class="layperson-terms">(Tiredness = lack of energy)</span>
+          </label>
+          <input id="tiredness-0" type="radio" name="tiredness" value="0" required>
+          <label for="tiredness-0">0</label>
+
+          <input id="tiredness-1" type="radio" name="tiredness" value="1">
+          <label for="tiredness-1">1</label>
+
+          <input id="tiredness-2" type="radio" name="tiredness" value="2">
+          <label for="tiredness-2">2</label>
+
+          <input id="tiredness-3" type="radio" name="tiredness" value="3">
+          <label for="tiredness-3">3</label>
+
+          <input id="tiredness-4" type="radio" name="tiredness" value="4">
+          <label for="tiredness-4">4</label>
+
+          <input id="tiredness-5" type="radio" name="tiredness" value="5">
+          <label for="tiredness-5">5</label>
+
+          <input id="tiredness-6" type="radio" name="tiredness" value="6">
+          <label for="tiredness-6">6</label>
+
+          <input id="tiredness-7" type="radio" name="tiredness" value="7">
+          <label for="tiredness-7">7</label>
+
+          <input id="tiredness-8" type="radio" name="tiredness" value="8">
+          <label for="tiredness-8">8</label>
+
+          <input id="tiredness-9" type="radio" name="tiredness" value="9">
+          <label for="tiredness-9">9</label>
+
+          <input id="tiredness-10" type="radio" name="tiredness" value="10">
+          <label for="tiredness-10">10</label>
+          <label for="tiredness-10">Worst Possible Tiredness</label>
+        </div>
+
+        <div>
+          <label class="question" for="drowsiness-0">No Drowsiness
+            <span class="layperson-terms">(Drowsiness = feeling sleepy)</span>
+          </label>
+          <input id="drowsiness-0" type="radio" name="drowsiness" value="0" required>
+          <label for="drowsiness-0">0</label>
+
+          <input id="drowsiness-1" type="radio" name="drowsiness" value="1">
+          <label for="drowsiness-1">1</label>
+
+          <input id="drowsiness-2" type="radio" name="drowsiness" value="2">
+          <label for="drowsiness-2">2</label>
+
+          <input id="drowsiness-3" type="radio" name="drowsiness" value="3">
+          <label for="drowsiness-3">3</label>
+
+          <input id="drowsiness-4" type="radio" name="drowsiness" value="4">
+          <label for="drowsiness-4">4</label>
+
+          <input id="drowsiness-5" type="radio" name="drowsiness" value="5">
+          <label for="drowsiness-5">5</label>
+
+          <input id="drowsiness-6" type="radio" name="drowsiness" value="6">
+          <label for="drowsiness-6">6</label>
+
+          <input id="drowsiness-7" type="radio" name="drowsiness" value="7">
+          <label for="drowsiness-7">7</label>
+
+          <input id="drowsiness-8" type="radio" name="drowsiness" value="8">
+          <label for="drowsiness-8">8</label>
+
+          <input id="drowsiness-9" type="radio" name="drowsiness" value="9">
+          <label for="drowsiness-9">9</label>
+
+          <input id="drowsiness-10" type="radio" name="drowsiness" value="10">
+          <label for="drowsiness-10">10</label>
+          <label for="drowsiness-10">Worst Possible Drowsiness</label>
+        </div>
+
+        <div>
+          <label class="question" for="nausea-0">No Nausea</label>
+          <input id="nausea-0" type="radio" name="nausea" value="0" required>
+          <label for="nausea-0">0</label>
+
+          <input id="nausea-1" type="radio" name="nausea" value="1">
+          <label for="nausea-1">1</label>
+
+          <input id="nausea-2" type="radio" name="nausea" value="2">
+          <label for="nausea-2">2</label>
+
+          <input id="nausea-3" type="radio" name="nausea" value="3">
+          <label for="nausea-3">3</label>
+
+          <input id="nausea-4" type="radio" name="nausea" value="4">
+          <label for="nausea-4">4</label>
+
+          <input id="nausea-5" type="radio" name="nausea" value="5">
+          <label for="nausea-5">5</label>
+
+          <input id="nausea-6" type="radio" name="nausea" value="6">
+          <label for="nausea-6">6</label>
+
+          <input id="nausea-7" type="radio" name="nausea" value="7">
+          <label for="nausea-7">7</label>
+
+          <input id="nausea-8" type="radio" name="nausea" value="8">
+          <label for="nausea-8">8</label>
+
+          <input id="nausea-9" type="radio" name="nausea" value="9">
+          <label for ="nausea-9">9</label>
+
+          <input id="nausea-10" type="radio" name="nausea" value="10">
+          <label for="nausea-10">10</label>
+          <label for="nausea-10">Worst Possible Nausea</label>
+        </div>
+
+        <div>
+          <label class="question" for="lack of appetite-0">No Lack of Appetite</label>
+          <input id="lack of appetite-0" type="radio" name="lack of appetite" value="0" required>
+          <label for="lack of appetite-0">0</label>
+
+          <input id="lack of appetite-1" type="radio" name="lack of appetite" value="1">
+          <label for="lack of appetite-1">1</label>
+
+          <input id="lack of appetite-2" type="radio" name="lack of appetite" value="2">
+          <label for="lack of appetite-2">2</label>
+
+          <input id="lack of appetite-3" type="radio" name="lack of appetite" value="3">
+          <label for="lack of appetite-3">3</label>
+
+          <input id="lack of appetite-4" type="radio" name="lack of appetite" value="4">
+          <label for="lack of appetite-4">4</label>
+
+          <input id="lack of appetite-5" type="radio" name="lack of appetite" value="5">
+          <label for="lack of appetite-5">5</label>
+
+          <input id="lack of appetite-6" type="radio" name="lack of appetite" value="6">
+          <label for="lack of appetite-6">6</label>
+
+          <input id="lack of appetite-7" type="radio" name="lack of appetite" value="7">
+          <label for="lack of appetite-7">7</label>
+
+          <input id="lack of appetite-8" type="radio" name="lack of appetite" value="8">
+          <label for="lack of appetite-8">8</label>
+
+          <input id="lack of appetite-9" type="radio" name="lack of appetite" value="9">
+          <label for="lack of appetite-9">9</label>
+
+          <input id="lack of appetite-10" type="radio" name="lack of appetite" value="10">
+          <label for="lack of appetite-10">10</label>
+          <label for="lack of appetite-10">Worst Possible Lack of Appetite</label>
+        </div>
+
+        <div>
+          <label class="question" for="shortness of breath-0">No Shortness of Breath</label>
+          <input id="shortness of breath-0" type="radio" name="shortness of breath" value="0" required>
+          <label for="shortness of breath-0">0</label>
+
+          <input id="shortness of breath-1" type="radio" name="shortness of breath" value="1">
+          <label for="shortness of breath-1">1</label>
+
+          <input id="shortness of breath-2" type="radio" name="shortness of breath" value="2">
+          <label for="shortness of breath-2">2</label>
+
+          <input id="shortness of breath-3" type="radio" name="shortness of breath" value="3">
+          <label for="shortness of breath-3">3</label>
+
+          <input id="shortness of breath-4" type="radio" name="shortness of breath" value="4">
+          <label for="shortness of breath-4">4</label>
+
+          <input id="shortness of breath-5" type="radio" name="shortness of breath" value="5">
+          <label for="shortness of breath-5">5</label>
+
+          <input id="shortness of breath-6" type="radio" name="shortness of breath" value="6">
+          <label for="shortness of breath-6">6</label>
+
+          <input id="shortness of breath-7" type="radio" name="shortness of breath" value="7">
+          <label for="shortness of breath-7">7</label>
+
+          <input id="shortness of breath-8" type="radio" name="shortness of breath" value="8">
+          <label for="shortness of breath-8">8</label>
+
+          <input id="shortness of breath-9" type="radio" name="shortness of breath" value="9">
+          <label for="shortness of breath-9">9</label>
+
+          <input id="shortness of breath-10" type="radio" name="shortness of breath" value="10">
+          <label for="shortness of breath-10">10</label>
+          <label for="shortness of breath-10">Worst Possible Shortness of Breath</label>
+        </div>
+
+        <div>
+          <label class="question" for="depression-0">No Depression
+            <span class="layperson-terms">(Depression = feeling sad)</span>
+          </label>
+          <input id="depression-0" type="radio" name="depression" value="0" required>
+          <label for="depression-0">0</label>
+
+          <input id="depression-1" type="radio" name="depression" value="1">
+          <label for="depression-1">1</label>
+
+          <input id="depression-2" type="radio" name="depression" value="2">
+          <label for="depression-2">2</label>
+
+          <input id="depression-3" type="radio" name="depression" value="3">
+          <label for="depression-3">3</label>
+
+          <input id="depression-4" type="radio" name="depression" value="4">
+          <label for="depression-4">4</label>
+
+          <input id="depression-5" type="radio" name="depression" value="5">
+          <label for="depression-5">5</label>
+
+          <input id="depression-6" type="radio" name="depression" value="6">
+          <label for="depression-6">6</label>
+
+          <input id="depression-7" type="radio" name="depression" value="7">
+          <label for="depression-7">7</label>
+
+          <input id="depression-8" type="radio" name="depression" value="8">
+          <label for="depression-8">8</label>
+
+          <input id="depression-9" type="radio" name="depression" value="9">
+          <label for="depression-9">9</label>
+
+          <input id="depression-10" type="radio" name="depression" value="10">
+          <label for="depression-10">10</label>
+          <label for="depression-10">Worst Possible Depression</label>
+        </div>
+
+        <div>
+          <label class="question" for="anxiety-0">No Anxiety
+            <span class="layperson-terms">(Anxiety = feeling nervous)</span>
+          </label>
+          <input id="anxiety-0" type="radio" name="anxiety" value="0" required>
+          <label for="anxiety-0">0</label>
+
+          <input id="anxiety-1" type="radio" name="anxiety" value="1">
+          <label for="anxiety-1">1</label>
+
+          <input id="anxiety-2" type="radio" name="anxiety" value="2">
+          <label for="anxiety-2">2</label>
+
+          <input id="anxiety-3" type="radio" name="anxiety" value="3">
+          <label for="anxiety-3">3</label>
+
+          <input id="anxiety-4" type="radio" name="anxiety" value="4">
+          <label for="anxiety-4">4</label>
+
+          <input id="anxiety-5" type="radio" name="anxiety" value="5">
+          <label for="anxiety-5">5</label>
+
+          <input id="anxiety-6" type="radio" name="anxiety" value="6">
+          <label for="anxiety-6">6</label>
+
+          <input id="anxiety-7" type="radio" name="anxiety" value="7">
+          <label for="anxiety-7">7</label>
+
+          <input id="anxiety-8" type="radio" name="anxiety" value="8">
+          <label for="anxiety-8">8</label>
+
+          <input id="anxiety-9" type="radio" name="anxiety" value="9">
+          <label for="anxiety-9">9</label>
+
+          <input id="anxiety-10" type="radio" name="anxiety" value="10">
+          <label for="anxiety-10">10</label>
+          <label for="anxiety-10">Worst Possible Anxiety</label>
+        </div>
+
+        <div>
+          <label class="question" for="wellbeing-0">Best Wellbeing
+            <span class="layperson-terms">(Wellbeing = how you feel overall)</span>
+          </label>
+          <input id="wellbeing-0" type="radio" name="wellbeing" value="0" required>
+          <label for="wellbeing-0">0</label>
+
+          <input id="wellbeing-1" type="radio" name="wellbeing" value="1">
+          <label for="wellbeing-1">1</label>
+
+          <input id="wellbeing-2" type="radio" name="wellbeing" value="2">
+          <label for="wellbeing-2">2</label>
+
+          <input id="wellbeing-3" type="radio" name="wellbeing" value="3">
+          <label for="wellbeing-3">3</label>
+
+          <input id="wellbeing-4" type="radio" name="wellbeing" value="4">
+          <label for="wellbeing-4">4</label>
+
+          <input id="wellbeing-5" type="radio" name="wellbeing" value="5">
+          <label for="wellbeing-5">5</label>
+
+          <input id="wellbeing-6" type="radio" name="wellbeing" value="6">
+          <label for="wellbeing-6">6</label>
+
+          <input id="wellbeing-7" type="radio" name="wellbeing" value="7">
+          <label for="wellbeing-7">7</label>
+
+          <input id="wellbeing-8" type="radio" name="wellbeing" value="8">
+          <label for="wellbeing-8">8</label>
+
+          <input id= "wellbeing-9" type="radio" name="wellbeing" value="9">
+          <label for="wellbeing-9">9</label>
+
+          <input id="wellbeing-10" type="radio" name="wellbeing" value="10">
+          <label for="wellbeing-10">10</label>
+          <label for="wellbeing-10">Worst Possible Wellbeing</label>
+        </div>
+
+        <div>
+          <label class="question" for="other-problem-0">No
+            <input id="other-problem" type="text" placeholder="Other Problem" value="">
+            <span class="layperson-terms">(for example constipation)</span>
+          </label>
+          <input id="other-problem-0" type="radio" name="other-problem" value="0">
+          <label for="other-problem-0">0</label>
+
+          <input id="other-problem-1" type="radio" name="other-problem" value="1">
+          <label for="other-problem-1">1</label>
+
+          <input id="other-problem-2" type="radio" name="other-problem" value="2">
+          <label for="other-problem-2">2</label>
+
+          <input id="other-problem-3" type="radio" name="other-problem" value="3">
+          <label for="other-problem-3">3</label>
+
+          <input id="other-problem-4" type="radio" name="other-problem" value="4">
+          <label for="other-problem-4">4</label>
+
+          <input id="other-problem-5" type="radio" name="other-problem" value="5">
+          <label for="other-problem-5">5</label>
+
+          <input id="other-problem-6" type="radio" name="other-problem" value="6">
+          <label for="other-problem-6">6</label>
+
+          <input id="other-problem-7" type="radio" name="other-problem" value="7">
+          <label for="other-problem-7">7</label>
+
+          <input id="other-problem-8" type="radio" name="other-problem" value="8">
+          <label for="other-problem-8">8</label>
+
+          <input id="other-problem-9" type="radio" name="other-problem" value="9">
+          <label for="other-problem-9">9</label>
+
+          <input id="other-problem-10" type="radio" name="other-problem" value="10">
+          <label for="other-problem-10">10</label>
+          <label for="other-problem-10">Worst Possible 
+          <input id="other-problem" type="text" placeholder="Other Problem" value="">
+          </label>
+        </div>
+      </fieldset>
+
+    </main>
+    <footer>
+      <fieldset class="patient-info">
+        <legend>Patient Information</legend>
+        <span>
+        <label for="patient-name">Patient's Name</label>
+        <input id="patient-name" type="text" name="patient-name" value="" required>
+        </span>
+        <span>
+        <label for="date-filled">Date</label>
+        <input id="date-filled" type="date" placeholder="mm/dd/yyyy" name="date-filled" value="" required>
+        </span>
+        <span>
+        <label for="time-filled">Time</label>
+        <input id="time-filled" type="time" placeholder="hh/mm" name="time-filled" value="" required>
+        </span>
+      </fieldset>
+
+      <fieldset class="completed-by">
+        <legend>Completed by (Check one)</legend>
+        <span>
+        <input id="completed-by-patient" type="radio" value="patient" name="completed-by" required>
+        <label for="completed-by-patient">Patient</label>
+        </span>
+        <span>
+        <input id="completed-by-family-caregiver" type="radio" value="family-caregiver" name="completed-by" required>
+        <label for="completed-by-family-caregiver">Family Caregiver</label>
+        </span>
+        <span>
+        <input id="completed-by-health-care-professional" type="radio" value="health-care-professional" name="completed-by" required>
+        <label for="completed-by-health-care-professional">Worker</label>
+        </span>
+        <span>
+        <input id="completed-by-caregiver-assisted" type="radio" value="caregiver-assisted" name="completed-by" required>
+        <label for="completed-by-caregiver-assisted">Patient</label>
+        </span>
+      
+      </fieldset>
+
+    </footer>
+    <div class="clear">
+    <input id="submit" type="submit" name="button">
+    
+    <aside>
+      <p>All Rights Revised</p>
+      <p>2001-2016</p>
+    </aside>
+    </div>
+  </form>
+  </body>
+  
+</html>
